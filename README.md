@@ -1,4 +1,4 @@
-# \ Hybrid Recommender
+#  Hybrid Recommender
 
 This repository contains my \ project for a hybrid recommender system using product review data.
 
