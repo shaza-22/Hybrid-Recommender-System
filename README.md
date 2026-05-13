@@ -1,12 +1,21 @@
-#  Hybrid Recommender
+# Hybrid Recommender System
 
-This repository contains my \ project for a hybrid recommender system using product review data.
+This project builds a hybrid recommender system using product review data. It combines association-rule mining with text-based similarity methods to explore customer behavior and generate product recommendations.
+
+The workflow is implemented in a Jupyter notebook and covers data loading, sampling, preprocessing, frequent itemset mining, association rules, TF-IDF feature extraction, and cosine-similarity-based recommendation logic.
+
+## Project Goals
+
+- Analyze product review data to identify useful recommendation patterns.
+- Use association rules to discover relationships between products.
+- Apply text similarity techniques to compare products using review content.
+- Combine multiple recommendation signals into a hybrid recommender approach.
 
 ## Files
 
-- `Hybird-Recommender.ipynb` - main Jupyter notebook with the data mining and recommender workflow.
+- `Hybrid_Recommender_System.ipynb` - main notebook containing the full recommender workflow.
 - `data/Reviews.csv` - review dataset used by the notebook. This file is tracked with Git LFS because it is larger than GitHub's normal file limit.
-- `docs/SIS317Hybrid_Recommender.pdf` - assignment brief / project document.
+- `requirements.txt` - Python dependencies needed to run the project.
 
 ## Setup
 
@@ -19,7 +28,7 @@ pip install -r requirements.txt
 Then open and run:
 
 ```bash
-jupyter notebook Assignment1_DataMining.ipynb
+jupyter notebook Hybrid_Recommender_System.ipynb
 ```
 
 ## Notes
